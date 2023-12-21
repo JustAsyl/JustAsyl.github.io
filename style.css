@@ -1,0 +1,58 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    column-gap: 40px;
+    padding-left:40px;
+    height: 70px;
+    font-size: 24px;
+}
+
+.info{
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+}
+.info:hover{
+    background-color: rgb(184, 184, 184);
+    
+}
+
+
+.main_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 30px;
+    
+}
+.theme{
+    font-size: 60px;
+}
+p{
+    font-size: 35px;
+}
+.txt_info{
+    width: 50%;
+}
+.image{
+    width: 20%;
+}
+img{
+    border-radius: 50%;
+}
+button{
+    color: white;
+    background-color: rgb(255, 128, 70);
+    margin-left: 280px;
+    font-size: 35px;
+    height: 60px;
+    width: 400px;
+    border: none;
+}
+.btn{
+    justify-content: center;
+}
